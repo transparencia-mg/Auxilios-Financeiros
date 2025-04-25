@@ -27,7 +27,6 @@ resources:
         - name: tipo_auxilio
           type: string
           title: Tipo de auxílio
-          description: Modalidade do benefício. Valores possíveis: Natalidade, Funeral.
         - name: qtde_auxilios_deferidos
           type: integer
           title: Quantidade de auxílios deferidos
