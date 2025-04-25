@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.021,
+  "time": 0.025,
   "errors": [],
   "tasks": [
     {
@@ -19,28 +19,36 @@
           "fields": [
             {
               "name": "data_ref",
-              "type": "integer"
+              "type": "integer",
+              "title": "Data de referência"
             },
             {
               "name": "municipio",
-              "type": "string"
+              "type": "string",
+              "title": "Município",
+              "description": "Município de destino ao auxílio."
             },
             {
               "name": "valor_pago",
-              "type": "string"
+              "type": "string",
+              "title": "Valor Pago",
+              "description": "Apresenta qual o valor pago pelo reembolso"
             },
             {
               "name": "tipo_auxilio",
-              "type": "string"
+              "type": "string",
+              "title": "Tipo de auxílio"
             },
             {
               "name": "qtde_auxilios_deferidos",
-              "type": "integer"
+              "type": "integer",
+              "title": "Quantidade de auxílios deferidos",
+              "description": "Indica o número de auxílios deferidos realizados"
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Auxilios financeiros",
         "stats": {
           "hash": "393581c0b2128111deb6258740c050c1",
           "bytes": 2614,
@@ -48,7 +56,7 @@
           "rows": 65
         }
       },
-      "time": 0.012,
+      "time": 0.014,
       "scope": [
         "hash-count-error",
         "byte-count-error",
