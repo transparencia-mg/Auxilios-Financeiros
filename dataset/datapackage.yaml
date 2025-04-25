@@ -15,14 +15,24 @@ resources:
       fields:
         - name: data_ref
           type: integer
+          title: 
+          description:
         - name: municipio
           type: string
+          title: 
+          description:
         - name: valor_pago
           type: string
+          title: 
+          description:
         - name: tipo_auxilio
           type: string
+          title: 
+          description:
         - name: qtde_auxilios_deferidos
           type: integer
+          title: 
+          description:
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Auxilios financeiros
 title: Auxilios financeiros
