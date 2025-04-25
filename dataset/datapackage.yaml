@@ -27,7 +27,7 @@ resources:
           description: Apresenta qual o valor pago pelo reembolso
         - name: tipo_auxilio
           type: string
-          title: 	Tipo de auxílio
+          title: Tipo de auxílio
           description: Modalidade do benefício. Valores possíveis: Natalidade, Funeral.
         - name: qtde_auxilios_deferidos
           type: integer
