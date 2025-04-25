@@ -1,0 +1,46 @@
+{
+  "name": "auxilios-financeiros",
+  "owner_org": "instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "auxilios_financeiros",
+      "path": "data/auxilios_financeiros.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "data_ref",
+            "type": "integer"
+          },
+          {
+            "name": "municipio",
+            "type": "string"
+          },
+          {
+            "name": "valor_pago",
+            "type": "string"
+          },
+          {
+            "name": "tipo_auxilio",
+            "type": "string"
+          },
+          {
+            "name": "qtde_auxilios_deferidos",
+            "type": "integer"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Auxilios financeiros"
+}
