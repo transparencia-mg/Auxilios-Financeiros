@@ -15,24 +15,24 @@ resources:
       fields:
         - name: data_ref
           type: integer
-          title: 
-          description:
+          title: Data de referência
+          description: Ano e mês de referência correspondente ao mês de recebimento do benefício (aaaa_mm).
         - name: municipio
           type: string
-          title: 
-          description:
+          title: Município
+          description: Município de destino ao auxílio.
         - name: valor_pago
           type: string
-          title: 
-          description:
+          title: Valor Pago
+          description: Apresenta qual o valor pago pelo reembolso
         - name: tipo_auxilio
           type: string
-          title: 
-          description:
+          title: 	Tipo de auxílio
+          description: Modalidade do benefício. Valores possíveis: Natalidade, Funeral.
         - name: qtde_auxilios_deferidos
           type: integer
-          title: 
-          description:
+          title: Quantidade de auxílios deferidos
+          description: Indica o número de auxílios deferidos realizados
     scheme: file
     title: Auxilios financeiros
 title: Auxilios financeiros
