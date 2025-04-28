@@ -24,7 +24,7 @@ resources:
         - name: valor_pago
           type: string
           title: Valor Pago
-          description: Apresenta o valor pago pelo reembolso
+          description: Apresenta o valor pago pelo reembolso.
         - name: tipo_auxilio
           type: string
           title: Tipo de auxílio
