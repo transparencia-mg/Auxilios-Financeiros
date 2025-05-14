@@ -2,7 +2,7 @@ name: auxilios-financeiros
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Quantidade mensal de auxílios concedidos e os respectivos valores pagos por município, com o objetivo de monitorar a execução da ação 4409, vinculada ao programa 0138.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
